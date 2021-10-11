@@ -1,0 +1,63 @@
+header {
+    text-align: center;
+    height: 150px;
+    background-image: url("images/javajamlogo.jpg");
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 2em 2em 2em;
+    display: block;
+}
+
+body {
+    background-image: url("images/background.gif")
+}
+body img {
+    float: right;
+    alt: "Image of Winding Road";
+    height: relative;
+}
+
+#wrapper {
+    background-color: #FEF6C2;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: drop-shadow();
+}
+
+h1 {
+    line-height: unset;
+    padding: 45px 220px 0 0;
+    font-size: 3em;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding: 0 .5em .25em 0;
+}
+
+nav {
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #221811;
+    border-top: 2px;
+}
+
+.details {
+    padding: 0 20% 20% 0;
+}
+
+img {
+    padding: 0 10px 10px 0;
+}
