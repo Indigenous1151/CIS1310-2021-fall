@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: red;
+    padding: 1em;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 2;
+}
