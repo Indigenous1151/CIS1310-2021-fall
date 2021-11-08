@@ -1,12 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: grey;
+    padding-top: 0;
+    margin: 0;
+    background-color: lightgrey;
 }
 
 header {
-    background-color: red;
-    padding: 1em;
+    position: relative;
+    font-size: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
+header h1 {
+    padding-top: 2rem;
+}
+
+header p {
+    position: absolute;
+    font-size: 1rem;
+    font-style: italic;
+    right: 4em;
+    top: 2rem;
+}
+
+img {
+    width: 100%;
+    align-content: center;
+    height: auto;
+    margin: 0;
+}
+
+nav {
+    padding: 0 1rem 5px 1rem;
+    position: relative;
+}
+
+.black-back {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar-links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li:hover {
+    background-color: #3B3D3B;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: .75rem;
+    display: block;
+}
+
+.wrapper {
+    background-color: white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    min-height: 90vh;
+}
 .grid-layout {
     display: grid;
     grid-template-columns: 2;
