@@ -39,6 +39,21 @@ nav {
     position: relative;
 }
 
+main {
+    grid-area: main;
+    background-color: red;
+}
+
+aside {
+    grid-area: aside;
+    background-color: green;
+}
+
+footer {
+    grid-area: footer;
+    background-color: turquoise;
+}
+
 .black-back {
     background-color: black;
 }
@@ -84,5 +99,9 @@ nav {
 }
 .grid-layout {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    "main aside"
+    "footer footer";
 }
