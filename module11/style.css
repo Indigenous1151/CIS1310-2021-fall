@@ -5,6 +5,11 @@ body {
     background-color: gray;
 }
 
+div::before {
+    content: ".";
+    visibility: hidden;
+}
+
 .black {
     grid-column-start: 1;
     grid-column-end: 9;
