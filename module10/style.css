@@ -109,4 +109,5 @@ footer {
     grid-template-areas:
     "main aside"
     "footer footer";
+    grid-gap: 0 1rem;
 }
