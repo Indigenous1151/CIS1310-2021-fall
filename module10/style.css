@@ -114,9 +114,20 @@ footer {
     min-height: 90vh;
 }
 
-.text-box {
-    background-color: #c8e1f9;
+.small {
+    width: 32px;
+    height: auto;
+    float: left;
+    margin-right: .5em;
+}
+
+.bluegray-text-box {
+    background-color: #e9ebf6;
     border-top: 5px solid black;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.white-text-box {
     padding: 0 1rem 1rem 1rem;
 }
 
