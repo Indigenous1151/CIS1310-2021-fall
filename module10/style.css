@@ -26,6 +26,22 @@ header p {
     top: 2rem;
 }
 
+h2 {
+    margin-block-end: 0;
+}
+
+small {
+    color: grey;
+}
+
+small a {
+    color: grey;
+}
+
+blockquote {
+    font-style: italic;
+}
+
 img {
     width: 100%;
     align-content: center;
@@ -41,7 +57,10 @@ nav {
 
 main {
     grid-area: main;
-    background-color: red;
+}
+
+main p a {
+    color : blue;
 }
 
 aside {
@@ -52,10 +71,7 @@ aside {
 footer {
     grid-area: footer;
     background-color: turquoise;
-}
-
-.black-back {
-    background-color: black;
+    border-top: 2px solid black;
 }
 
 .navbar {
@@ -96,6 +112,12 @@ footer {
     min-width: 900px;
     max-width: 1280px;
     min-height: 90vh;
+}
+
+.text-box {
+    background-color: #c8e1f9;
+    border-top: 5px solid black;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .grid-padding {
