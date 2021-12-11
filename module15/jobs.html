@@ -25,13 +25,26 @@
         </nav>
         
         <main>
-            <div id="heroroad"></div>
+            <div id="herojobs"></div>
             <h2>Jobs at JavaJam<br></h2>
             <p>
                 Want to work at JavaJam? Fill out the form below to start your application.
+                <br>Required fields are mark with an asterisk (*).
             </p>
 
-            
+            <form action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">*Name:</label>
+                <input type="text" id="myName" name="myName" placeholder="Jane Doe" required/>
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" id="myEmail" name="myEmail" placeholder="xyz@gmail.com" required>
+                <label for="myExperience">*Experience:</label>
+                <textarea id="myExperience" name="myExperience" placeholder="Enter Text Here..." rows="2" cols="20" required></textarea>
+                <label for="full">Full-Time</label>
+                <input type="radio" id="full" name="hours" value="Full-Time">
+                <label for="part">Part-Time</label>
+                <input type="radio" id="part" name="hours" value="Part-Time">
+                <input type="submit" id="mySubmit" value="Apply Now">
+            </form>
                 
         </main>
         <footer>

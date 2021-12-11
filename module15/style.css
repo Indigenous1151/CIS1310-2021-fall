@@ -94,6 +94,25 @@ table th {
     padding: 10px;
 }
 
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+    min-width: 20em;
+}
+
 footer {
     background-color: #D2B48C;
     font-size: .6em;
@@ -115,23 +134,40 @@ footer {
     overflow: auto;
 }
 
+#mySubmit {
+    margin-left: 9.5em;
+    min-height: 3em;
+}
+
+#part,
+#full {
+    min-width: 1em;
+}
+
 #heroroad {
     background-image: url(images/heroroad.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 250px;
 }
 
 #heromugs {
     background-image: url(images/heromugs.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 250px;
 }
 
 #heroguitar {
     background-image: url(images/heroguitar.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+#herojobs {
+    background-image: url(images/herojobs.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 250px;
 }
