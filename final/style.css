@@ -57,6 +57,41 @@ nav {
     display: block;
 }
 
+.gen1-table {
+    float: right;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 20%;
+    margin: .5em .5em .5em 2em;
+}
+
+table th {
+    font-size: 75%;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1.5em;
+    max-width: 200px;
+}
+
+.main-header {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.header {
+    background-color: lightgray;
+    text-align: center;
+}
+
+table td {
+    font-size: 75%;
+}
+
+table img {
+    width: 200px;
+    height: auto;
+}
 
 
 main {
@@ -92,3 +127,8 @@ footer {
     "nav main"
     "footer footer";
 }
+/* 
+---------------------------------------------------
+                    Table CSS
+--------------------------------------------------- 
+*/
