@@ -2,9 +2,17 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #FF9A8D;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(double-bubble-dark/double-bubble-dark.png);
+}
+
+p {
+    font-size: .9rem;
 }
 
 h1 {
@@ -12,8 +20,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 1.25em;
+}
+
 a img {
-    width: 0px;
+    width: 200px;
     height: auto;
 }
 
@@ -24,14 +36,13 @@ nav {
     font-size: 1em;
     padding: 10px 10px 5rem;
     width: auto;
-    background-color: lightsteelblue;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: top;
-    background-color: lightsteelblue;
+    background-color: #4A536B;
     color: white;
 }
 
@@ -47,14 +58,19 @@ nav {
 }
 
 .navbar-links li:hover {
-    background-color: #B1D4E0;
+    background-color: #AED6DC;
+    color: black;
 }
 
 .navbar-links li a {
     text-decoration: none;
-    color: #18638f;
+    color: white;
     padding: .75rem;
     display: block;
+}
+
+.navbar-links li a:hover {
+    color: black;
 }
 
 .gen1-table {
@@ -62,7 +78,7 @@ nav {
     border: 1px solid black;
     padding: 1rem;
     width: 20%;
-    margin: .5em .5em .5em 2em;
+    margin: 2em .5em .5em 2em;
 }
 
 table th {
@@ -103,7 +119,7 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: #D2B48C;
+    background-color: #FF9A8D;
     font-size: .6em;
     font-style: italic;
     text-align: center;
@@ -113,7 +129,7 @@ footer {
 #wrapper {
     display: grid;
     background-color: white;
-    width: 85%;
+    width: 95%;
     margin-right: auto;
     margin-left: auto;
     min-height: 95vh;
