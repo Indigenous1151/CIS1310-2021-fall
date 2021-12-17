@@ -38,7 +38,7 @@ nav {
     text-align: center;
     font-weight: bold;
     font-size: 1em;
-    padding: 10px 10px 5rem;
+    padding: 10px 10px;
     width: auto;
 }
 
@@ -87,7 +87,7 @@ nav {
     padding: 1rem;
     width: auto;
     text-align: center;
-    margin: 2em 2em .5em 0;
+    margin: 2em 2em 1em 0;
     background-color: lightgray;
 }
 
@@ -145,6 +145,7 @@ table th {
     background-color: #4A536B;
     color: white;
     text-align: center;
+    column-span: all;
 }
 
 table td {
@@ -158,6 +159,10 @@ table img {
 
 .info {
     clear: left;
+}
+
+.info li {
+    font-size: .9rem;
 }
 
 /*------------------------------------------------------------*/
@@ -197,7 +202,7 @@ footer a:visited {
 #wrapper {
     display: grid;
     background-color: white;
-    width: 95%;
+    width: 95vw;
     margin-right: auto;
     margin-left: auto;
     min-height: 95vh;
@@ -210,4 +215,52 @@ footer a:visited {
     "nav header"
     "nav main"
     "footer footer";
+}
+
+
+@media screen and (max-width: 650px) {
+    #wrapper {
+        width: 100vw;
+        min-width: 300px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+        box-shadow: none;
+    }
+
+    .navbar-links {
+        width: 100%;
+    }
+
+    .frag-table {
+        float: left;
+    }
+
+    .gen-table {
+        clear: both;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 651px) {
+    #wrapper {
+        min-width: 600px;
+    }
+    
+    .freg-table {
+        float: left;
+    }
+
+    .gen-table {
+        clear: both;
+        float: left;
+    }
+
+    .info {
+        clear: both;
+    }
 }
