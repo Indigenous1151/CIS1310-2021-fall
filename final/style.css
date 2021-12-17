@@ -73,12 +73,45 @@ nav {
     color: black;
 }
 
-.gen1-table {
+.frag-table {
+    float: left;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 20%;
+    text-align: center;
+    margin: 2em 2em .5em 0;
+    background-color: lightgray;
+}
+
+.frag-table th {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.frag-table td {
+    text-align: left;
+    font-size: .95rem;
+}
+
+.frag-table a {
+    text-decoration: none;
+}
+
+.frag-table a:hover {
+    text-decoration: underline;
+}
+
+.frag-table a:visited {
+    color: blue;
+}
+
+.gen-table {
     float: right;
     border: 1px solid black;
     padding: 1rem;
     width: 20%;
     margin: 2em .5em .5em 2em;
+    background-color: lightgray;
 }
 
 table th {
@@ -90,13 +123,15 @@ table th {
 }
 
 .main-header {
-    background-color: lightgray;
+    background-color: #4A536B;
+    color: white;
     text-align: center;
     font-size: 1rem;
 }
 
 .header {
-    background-color: lightgray;
+    background-color: #4A536B;
+    color: white;
     text-align: center;
 }
 
@@ -109,12 +144,19 @@ table img {
     height: auto;
 }
 
+.info {
+    clear: left;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
 
 main {
     grid-area: main;
     background-color: white;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 2rem 5rem 2rem;
 }
 
 footer {
