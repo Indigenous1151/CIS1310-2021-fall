@@ -11,6 +11,11 @@ body {
     background-image: url(double-bubble-dark/double-bubble-dark.png);
 }
 
+.homescreen-video {
+    width: 80%;
+    height: 50vh;
+}
+
 p {
     font-size: .9rem;
 }
