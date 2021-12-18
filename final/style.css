@@ -82,6 +82,10 @@ nav {
     color: black;
 }
 
+.home-link a:hover {
+    background-color: #4A536B;
+}
+
 /*--------------------------------------------------------------
                         Frag ID Table
 --------------------------------------------------------------*/
@@ -207,7 +211,7 @@ footer a:visited {
 #wrapper {
     display: grid;
     background-color: white;
-    width: 95vw;
+    width: 95%;
     margin-right: auto;
     margin-left: auto;
     min-height: 95vh;
